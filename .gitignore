@@ -1,0 +1,15 @@
+# Clés et secrets, ne jamais les envoyer sur GitHub
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Données brutes trop lourdes pour GitHub
+data/raw/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
